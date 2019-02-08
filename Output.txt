@@ -1,0 +1,111 @@
+Keyword Table for the given code is :- 
++--------+-----+------+
+|   kW   | [i] | Freq |
++--------+-----+------+
+|  int   |  45 |  3   |
+| class  |  17 |  1   |
+|  else  |  33 |  1   |
+| while  |  90 |  1   |
+|   if   |  42 |  1   |
+| return |  64 |  1   |
++--------+-----+------+
+
+Operator Table for the given code is :- 
++----+-----+------+
+| O  | [i] | Freq |
++----+-----+------+
+| =  |  23 |  5   |
+| == |  11 |  1   |
+| >  |  9  |  1   |
+| %  |  4  |  1   |
+| /= |  27 |  1   |
+| ?  |  29 |  1   |
+| :  |  30 |  1   |
+| &  |  17 |  1   |
+| +  |  0  |  1   |
+| != |  12 |  1   |
+| *  |  2  |  1   |
++----+-----+------+
+
+Punctuator Table for the given code is :- 
++---+-----+------+
+| P | [i] | Freq |
++---+-----+------+
+| ; |  1  |  15  |
+| ) |  3  |  7   |
+| ( |  2  |  7   |
+| , |  0  |  6   |
+| } |  5  |  3   |
+| { |  4  |  3   |
++---+-----+------+
+
+Symbol Table for the given code is : -
++-----+--------+------------+
+| [i] | String |    Type    |
++-----+--------+------------+
+|  0  | result | Identifier |
+|  1  |   x    | Identifier |
+|  2  |   y    | Identifier |
+|  3  | quote  |  Message   |
+|  4  |   a    |   Class    |
+|  5  |  main  |  Function  |
+|  6  |   n    | Identifier |
+|  7  |  rem   | Identifier |
+|  8  | orgInt | Identifier |
+|  9  | printf |  Function  |
+|  10 | scanf  |  Function  |
+|  11 |   a    | Identifier |
+|  12 | revInt | Identifier |
++-----+--------+------------+
+
+Total Valid Tokens in the given code are : - 103
++--------+------------+-----+------+
+| Token  |    Type    | [i] | Freq |
++--------+------------+-----+------+
+|   ;    | Punctuator |  1  |  15  |
+|   )    | Punctuator |  3  |  7   |
+|   (    | Punctuator |  2  |  7   |
+|   n    | Identifier |  6  |  6   |
+| quote  |  Message   |  3  |  6   |
+|   ,    | Punctuator |  0  |  6   |
+| orgInt | Identifier |  8  |  5   |
+|   =    |  Operator  |  23 |  5   |
+|   }    | Punctuator |  5  |  3   |
+|   10   |  Constant  |  -  |  3   |
+| revInt | Identifier |  12 |  3   |
+| printf |  Function  |  9  |  3   |
+|  int   |  Keyword   |  45 |  3   |
+|   0    |  Constant  |  -  |  3   |
+|  rem   | Identifier |  7  |  3   |
+|   {    | Punctuator |  4  |  3   |
+|   %    |  Operator  |  4  |  1   |
+|   a    | Identifier |  11 |  1   |
+|   &    |  Operator  |  17 |  1   |
+| return |  Keyword   |  64 |  1   |
+|   !=   |  Operator  |  12 |  1   |
+|   x    | Identifier |  1  |  1   |
+|   +    |  Operator  |  0  |  1   |
+|   :    |  Operator  |  30 |  1   |
+|   ?    |  Operator  |  29 |  1   |
+| while  |  Keyword   |  90 |  1   |
+|   a    |   Class    |  4  |  1   |
+|   /=   |  Operator  |  27 |  1   |
+|  else  |  Keyword   |  33 |  1   |
+|   y    | Identifier |  2  |  1   |
+|   if   |  Keyword   |  42 |  1   |
+| scanf  |  Function  |  10 |  1   |
+|  main  |  Function  |  5  |  1   |
+|   >    |  Operator  |  9  |  1   |
+|   *    |  Operator  |  2  |  1   |
+| class  |  Keyword   |  17 |  1   |
+|   ==   |  Operator  |  11 |  1   |
+| result | Identifier |  0  |  1   |
++--------+------------+-----+------+
+
+Total Invalid Tokens are : - 3
++-------------------+------+
+|       Token       | Freq |
++-------------------+------+
+|        1com       |  2   |
+| 11reversedInteger |  1   |
++-------------------+------+
